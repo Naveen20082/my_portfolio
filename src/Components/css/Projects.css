@@ -5,7 +5,7 @@
     /* background: url("./skills.png") no-repeat center center/cover; */
 }
 
-h1 {
+.project_des>h1 {
     color: #41436A;
     font-family: 'Lobster', cursive;
 }

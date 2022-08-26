@@ -109,6 +109,12 @@
     }
 }
 
+@media (max-width:1200px) {
+    .skill_cont {
+        grid-template-columns: repeat(3, 30%);
+    }
+}
+
 @media (max-width:900px) {
     .skill_cont {
         grid-template-columns: repeat(2, 50%);

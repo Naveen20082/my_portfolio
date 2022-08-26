@@ -27,7 +27,8 @@ const Navbar = () => {
             <li><Link to="/skills">Skills</Link></li>
           </ul>
         </div>
-        <button onClick={Show}>Crooss</button>
+
+        <button onClick={Show}><div className="line"></div><div className="line"></div><div className="line"></div></button>
       </div>
     </>
   )

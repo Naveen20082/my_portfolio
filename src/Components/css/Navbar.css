@@ -58,6 +58,19 @@
     right: 0%;
     top: 0%;
     margin: 2em;
+    flex-direction: column;
+    gap: 3px;
+    background: black;
+}
+
+.main_navbar>button:hover {
+    cursor: pointer;
+}
+
+.main_navbar>button>.line {
+    background-color: white;
+    width: 24px;
+    height: 3px;
 }
 
 @media (max-width:650px) {
@@ -73,7 +86,7 @@
         transition: all 1s;
     }
     .main_navbar>button {
-        display: block;
+        display: flex;
     }
     .main_list>ul {
         flex-direction: column;
