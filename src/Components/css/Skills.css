@@ -1,6 +1,8 @@
 .skill_cont {
     padding-top: 10%;
-    background-color: #41436A;
+    /* background-color: #41436A;
+     */
+    background: url("./skills.png") no-repeat center center/cover;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 23%);
