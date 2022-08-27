@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux/es/exports';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 
 import store from './Components/Store/Store';
 
@@ -12,11 +12,13 @@ import store from './Components/Store/Store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <React.StrictMode>
+  // <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <React.StrictMode>
+    <HashRouter>
       <App />
-    </React.StrictMode>
-  </BrowserRouter>
+    </HashRouter>
+  </React.StrictMode>
+  // </BrowserRouter>
 
 );
 
