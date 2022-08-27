@@ -11,7 +11,7 @@ function App() {
   return (
     <>
 
-      <Routes>
+      <Routes basename="/my_portfolio">
         <Route exact path="/" element={<Main />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
